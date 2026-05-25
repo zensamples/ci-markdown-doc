@@ -20,18 +20,40 @@ Le **code en ligne** (*inline code*) est délimité par un simple *backtick*, ca
 	Sous Linux, tapez `ls -la` pour lister le contenu d'un dossier,  
 	y compris les fichiers cachés.
 
+
 ## Listing de code
 
 Les listings de code source sont créés à l'aide de *code fences*, c'est-à-dire par un blocs délimités par des *triple backticks*.
 
-```js title="Javascript"
-function hello() {
-	console.log("Hello World!");
-}
-```
+=== "📄 Code"
 
-```csharp title="C#"
-void hello(string who) {
-	Console.WriteLine("Hello " + who);
-}
-```
+	```md
+	````js title="Javascript"
+	function hello() {
+		console.log("Hello World!");
+	}
+	````
+	```
+
+	```md
+	````csharp title="C#"
+	void hello(string who) {
+		Console.WriteLine("Hello " + who);
+	}
+	````
+	```
+
+
+=== "➡️ Résultat"
+
+	```js title="Javascript"
+	function hello() {
+		console.log("Hello World!");
+	}
+	```
+
+	```csharp title="C#"
+	void hello(string who) {
+		Console.WriteLine("Hello " + who);
+	}
+	```

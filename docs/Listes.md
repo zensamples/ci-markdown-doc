@@ -53,6 +53,30 @@ icon: lucide/list
 	5. golf
 
 
+## Listes mixtes
+
+=== "📄 Code"
+
+	```md
+	- alpha
+	- bravo
+		1. charlie
+		2. delta
+		3. echo
+	- foxtrot
+	- golf
+	```
+
+=== "➡️ Résultat"
+
+	- alpha
+	- bravo
+		1. charlie
+		2. delta
+		3. echo
+	- foxtrot
+	- golf
+
 ## Listes de tâches
 
 === "📄 Code"

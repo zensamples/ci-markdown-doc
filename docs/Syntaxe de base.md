@@ -25,7 +25,7 @@ Le **gras** s'obtient en entourant du texte par 2 astérisques.
 
 ## Italique
 
-L'*italique* s'obtient en entourant du texte par 1 astérisque.
+L'*italique* s'obtient en entourant du texte par 1 astérisque, ou 1 souligné (_underscore_).
 
 === "📄 Exemple"
 
@@ -33,7 +33,7 @@ L'*italique* s'obtient en entourant du texte par 1 astérisque.
 	Cette phrase est normale.  
 	*Cette phrase est en italique.*  
 	Le mot *Markdown* seul est en italique.  
-	On peut combiner le ***gras et l'italique***.  
+	On peut combiner le _*gras et l'italique*_.  
 	```
 
 === "➡️ Résultat"

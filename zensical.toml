@@ -34,7 +34,7 @@ site_author = "Kilroy"
 #
 # Read more: https://zensical.org/docs/setup/basics/#copyright
 copyright = """
-Copyright &copy; 2025 Kilroy
+Copyright &copy; 2026 Kilroy
 """
 
 # Zensical supports both implicit navigation and explicitly defined navigation.
@@ -314,9 +314,33 @@ toggle.name = "Switch to light mode"
 
 
 # Admonitions
-# [project.markdown_extensions.admonition]
-# [project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.pymdownx.details]
 
-# [project.markdown_extensions.pymdownx.superfences]
-# [project.markdown_extensions.pymdownx.tabbed]
-# alternate_style = true
+# Tabs & Mermaid
+[project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+]
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+
+# Task Lists
+[project.markdown_extensions.pymdownx.tasklist]
+custom_checkbox = true
+
+# Inline highlight
+# [project.markdown_extensions.pymdownx.highlight]
+# [project.markdown_extensions.pymdownx.inlinehilite]
+
+# Keys, strikethrough, etc.
+[project.markdown_extensions.pymdownx.caret]
+[project.markdown_extensions.pymdownx.keys]
+[project.markdown_extensions.pymdownx.mark]
+[project.markdown_extensions.pymdownx.tilde]
+
+# Mermaid
+#[project.markdown_extensions.pymdownx.superfences]
+#custom_fences = [
+#  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+#]
